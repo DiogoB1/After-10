@@ -1,0 +1,20 @@
+button {
+	background-color:transparent;
+	border-radius:20px;
+	border:1px solid #ddfa05;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:4px 28px;
+	text-decoration:none;
+}
+button:hover {
+	background-color:yellow;
+    color: black;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
