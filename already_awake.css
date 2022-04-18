@@ -1,110 +1,163 @@
 /*!nav bar*/
 .navbar {
-    overflow: hidden;
-    background-color: none;
-    padding: 1px;
-    font-family: 'Eurostile Extended', sans-serif;
-    position: relative; left:20px; top: -60px;
-}
-  
-  /* Links inside the navbar */
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 10px 5px;
-    text-decoration: none;
-}
-  
-  /* The dropdown container */
-  .dropdown {
-    float: left;
-    overflow: hidden;
-}
-  
-  /* Dropdown button */
-  .dropdown .dropbtn {
-    font-size: 16px;
-    padding: 10px 5px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: stretch;
-    background-color: inherit;
-    font-family: 'Eurostile Extended', sans-serif; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-}
-  
-  /* Add a red background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #505050;
-}
-  
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
-    padding: 10px 5px;
-    display: none;
-    position: absolute;
-    background-color: #616161;
-    min-width: fill;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    float: none;
-    color: white;
-    padding: fill;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-}
-  
-  /* Add a grey background color to dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: rgb(128, 74, 74);
-}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
+  overflow: hidden;
+  background-color: none;
+  padding: 1px;
+  font-family: 'Eurostile Extended', sans-serif;
+  position: relative; left:20px; top: -60px;
 }
 
-
-button {
-	background-color:transparent;
-	border-radius:20px;
-	border:1px solid #ddfa05;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:20px;
-	padding:4px 28px;
-	text-decoration:none;
-}
-button:hover {
-	background-color:yellow;
-    color: black;
-}
-button:active {
-	position:relative;
-	top:1px;
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 10px 5px;
+  text-decoration: none;
 }
 
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  padding: 10px 5px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: stretch;
+  background-color: inherit;
+  font-family: 'Eurostile Extended', sans-serif; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #505050;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  padding: 10px 5px;
+  display: none;
+  position: absolute;
+  background-color: #616161;
+  min-width: fill;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: fill;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(128, 74, 74);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1 {
+  color: white;
+  font-size: medium;
+  text-align: center;
+  font-family: 'Eurostile Extended', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 1.2em;
+  font-weight: 50;
+  font-style: normal;
+  letter-spacing: -.02em;
+  text-transform: none;
+  line-height: 1.4em;
+  font-size: 45px;
+}
+
+h2 {
+  color: white;
+  font-size: medium;
+  text-align: center;
+  font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 1.2em;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -.02em;
+  text-transform: none;
+  line-height: 1.4em;
+  font-size: 45px;
+}
+
+h3{
+  color: white;
+  font-size: medium;
+  text-align: center;
+  font-family: 'Eurostile Extended', sans-serif;
+  letter-spacing: 0em;
+  line-height: 1.2em;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -.02em;
+  text-transform: none;
+  line-height: 1.4em;
+  font-size: 30px;
+}
 
 body {
-    text-align: center;
-    white-space: pre-wrap;
-    transition-timing-function: ease;
-    transition-duration: 0.9s;
-    transition-delay: 0.211765s;
-    background-image: url("tram_back.jpg");
-    background-size: cover;
-    position: relative;
-    background-position: 50%, 100%;
-    background-color: grey;
-    background-repeat: no-repeat;
-    color:white;
+  text-align: center;
+  white-space: pre-wrap;
+  transition-timing-function: ease;
+  transition-duration: 0.9s;
+  transition-delay: 0.211765s;
+  background-image: url("tram_back.jpg");
+  background-size: cover;
+  position: relative;
+  background-position: 50%, 100%;
+  background-color: grey;
+  background-repeat: no-repeat;
+  color:white;
+}
+/* 
+.header {
+  box-sizing: border-box;
+  background-color: #4c8b41;
+  position: absolute;
+  line-height: 1;
+} */
+
+button {
+position: center;
+background-color:transparent;
+border-radius:20px;
+border:1px solid #ddfa05;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family:Arial;
+font-size:20px;
+padding:4px 28px;
+text-decoration:none;
+}
+button:hover {
+background-color:yellow;
+  color: black;
+}
+button:active {
+position:relative;
+top:1px;
 }
